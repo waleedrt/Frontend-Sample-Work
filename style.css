@@ -1,0 +1,566 @@
+@font-face {
+   font-family: workfield;
+   src: url(./fonts/Fieldwork-GeoRegular.otf);
+}
+@font-face {
+   font-family: workfieldBold;
+   src: url(./fonts/Fieldwork-GeoBold.otf);
+}
+@font-face {
+   font-family: workfieldnormal;
+   src: url(./fonts/Fieldwork-GeoHair.otf);
+}
+@font-face {
+   font-family: price-text;
+   src: url(./fonts/MrEavesXLModNarOT-Reg.ttf);
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.logo-img{
+   max-width: 185px;
+   height: auto;
+}
+.listen-btn{
+   box-shadow: none;
+   border: 0px;
+   background-color: rgb(245, 181, 97);
+   -webkit-font-smoothing: subpixel-antialiased;
+   color: rgb(255, 255, 255);
+   font-style: normal !important;
+   font-family: workfield;
+   font-weight: 500;
+   border-radius: 30px;
+   padding: 8px 18px;
+   transition: 0.5s all;
+}
+.listen-btn:hover{
+   opacity: 0.8;
+   color: rgb(255, 255, 255);
+}
+
+.podcast-content{
+   color: rgb(22, 37, 70);
+   font-family: workfieldBold;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 52px;
+    letter-spacing: 0em;
+    line-height: 1em;
+    text-transform: none;
+}
+.main{
+   position: relative;
+}
+.main-banner{
+   height: auto;
+   width: 100%;
+   position: absolute;
+   z-index: -1;
+   top: -108px;
+}
+.main-img{
+   height: 100%;
+   width: 100%;
+}
+.main-listen-btn{
+   padding: 18px 34px;
+   font-family: workfield;
+   font-size: 18px;
+   font-weight: 500;
+   font-style: normal;
+   text-transform: none;
+   letter-spacing: 0.02em;
+   transition: 0.5s all;
+}
+.main-listen-btn:hover{
+   opacity: 0.8;
+   color: rgb(255, 255, 255);
+}
+.main-text-par{
+   color: rgba(22, 37, 70, 0.7);
+   font-family: workfieldnormal;
+   font-size: 17px;
+   font-weight: 600;
+   margin: 30px 0;
+}
+.inspired{
+   background: #162546;
+   color: white;
+}
+.main-bottom{
+   font-family: workfield;
+   padding: 30px 0;
+}
+.generic-advice{
+   position: relative;
+}
+.generic-advice-img{
+   height: auto;
+   width: 100%;
+}
+.generic-row{
+   margin: 60px 0 !important;
+}
+.generic-content{
+   font-family: workfield;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    letter-spacing: -.01em;
+    text-transform: none;
+    line-height: 1.2em;
+    color: #162546;
+}
+.generic-listen-btn{
+   display: inline-block;
+    padding: 0.9em 2.25em;
+    border: 2px solid #3a837b;
+    background-color: #3a837b;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    font-family: workfield;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: .02em;
+    line-height: 1.1em;
+    text-transform: none;
+    color: #fff;
+    border-radius: 3.4em;
+}
+.generic-sec-content{
+   max-width: 80%;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+}
+.generic-banner{
+   height: auto;
+   width: 100%;
+   position: absolute;
+   z-index: -1;
+   top: -60px;
+}
+.short-heading{
+   text-align: center;
+   color: #162546;
+   font-family: workfield;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    letter-spacing: 0em;
+    line-height: 1.1em;
+    text-transform: none;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.short-episode{
+   padding: 60px 0;
+   background: #f6faf9;
+}
+.short-img{
+   width: 100%;
+   height: auto;
+}
+.short-item-heading{
+   font-family: workfield;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 19px;
+    letter-spacing: .07em;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    color: #162546;
+    text-align: center;
+    margin: 30px 0 15px 0;
+}
+.entrepreneurs{
+   padding: 50px 0;
+   position: relative;
+}
+.entrepreneurs-heading{
+   color: #0d3f4a;
+   text-align: center;
+   font-family: workfield;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    letter-spacing: 0em;
+    line-height: 1.1em;
+    text-transform: none;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.ent-logo{
+   width: 100%;
+   height: auto;
+}
+.entrepreneurs-banner{
+   height: auto;
+   width: 100%;
+   position: absolute;
+   z-index: -1;
+   top: -10px;
+}
+.cus-mar{
+   margin: 70px 0 0 0;
+}
+.additional-coching{
+   position: relative;
+   padding: 60px 0;
+}
+.additional-coching-banner{
+   height: 630px;
+   width: 100%;
+   position: absolute;
+   z-index: -1;
+   top: 59px;
+}
+.price-heading{
+   font-family: workfield;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 20px;
+   letter-spacing: .05em;
+   text-transform: uppercase;
+   line-height: 1.3em;
+   text-align: center;
+}
+.price-card{
+   background: white;
+   padding: 50px;
+   margin: 30px 0;
+}
+.price-par{
+   font-family: price-text;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 19px;
+   letter-spacing: .03em;
+   text-transform: none;
+   line-height: 1.4em;
+   color: rgba(13,63,74,.8);
+}
+.cus-margin-2{
+   margin: 40px 0 ;
+}
+.listen-btn-sign{
+   box-shadow: none;
+   border: 0px;
+   background-color: rgb(245, 181, 97);
+   -webkit-font-smoothing: subpixel-antialiased;
+   color: rgb(255, 255, 255);
+   font-style: normal !important;
+   font-family: workfield;
+   font-weight: 500;
+   border-radius: 30px;
+   padding: 8px 28px;
+   transition: 0.5s all;
+}
+.listen-btn-sign:hover{
+   opacity: 0.8;
+   color: rgb(255, 255, 255);
+}
+.works{
+   padding: 60px 0;
+   background: #f6faf9;
+}
+.work-num{
+   padding: 20px;
+   font-family: workfieldbold;
+   color: #162546;
+}
+.work-par{
+   margin: 0;
+   padding: 20px;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 17px;
+   letter-spacing: .01em;
+   line-height: 1.6em;
+   text-transform: none;
+   color: rgba(22,37,70,.7);
+   font-family: workfield;
+}
+.mission-heading{
+   font-family: workfield;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 34px;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.1em;
+    color: white;
+}
+.mission-par{
+   font-family: workfield;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: .03em;
+    text-transform: none;
+    line-height: 1.5em;
+    color: white;
+}
+.work-listen-btn{
+   display: inline-block;
+    padding: 15px 28px;
+    border: 1.5px solid #f5b561;;
+    background-color: #f5b561;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    font-family: workfield;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: .02em;
+    line-height: 1.1em;
+    text-transform: none;
+    color: #fff;
+    border-radius: 3.4em;
+    color: white;
+}
+
+.mission-card{
+   background: #162546;
+   padding: 50px;
+   position: absolute;
+   left: 9%;
+    right: 49%;
+    z-index: 1;
+    margin-top: 12rem;
+}
+.work-img{
+   position: relative;
+   height: auto;
+   width: 100%;
+}
+.work-banner{
+   height: auto;
+   width: 100%;
+   position: absolute;
+   z-index: -1;
+}
+.download-guid{
+   padding: 5rem 0;
+   position: relative;
+}
+.download-heading{
+   margin: 0 0 17px 0;
+   padding: 0;
+   color: black;
+   font-size: 30px;
+   line-height: 1.2em;
+   text-align: inherit;
+   font-family: workfield;
+   color: white;
+}
+.download-par{
+   margin: 17px 0;
+   padding: 0;
+   font-size: 15px;
+   line-height: 1.6em;
+   color: white;
+}
+.down-input{
+   width: 100%;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.12);
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
+}
+.download-listen-btn{
+   color: #fff;
+    background-color: #3a837b;
+    border: 1px solid #3a837b !important;
+    border-radius: 300px;
+    font-size: 15px;
+    line-height: normal;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 40px;
+   
+}
+.download-banner{
+  height: 100%;
+   width: 100%;
+   position: absolute;
+   z-index: -1;
+   top: 0px;
+    bottom: 0px;
+}
+.become-batter{
+   padding: 60px 0;
+   background: #f6faf9;
+}
+.become-heading{
+   font-family: workfield;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    letter-spacing: 0em;
+    line-height: 1.1em;
+    text-transform: none;
+    color: #162546;
+    text-align: center;
+}
+.footer{
+   padding: 60px 0;
+   background: #162546;
+}
+.f-logo{
+ height: auto;
+ width: 70%;
+}
+.s-icon{
+   color: white;
+   font-size: 20px;
+   margin: 0 10px 0 0;
+
+}
+
+.social-icon{
+   margin: 46px 35px 35px 72px;
+   display: inline-block;
+   cursor: pointer;
+   transition: 0.5s all;
+}
+
+.f-heading{
+   font-family: workfieldbold;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 19px;
+   letter-spacing: .07em;
+   line-height: 1.3em;
+   text-transform: uppercase;
+   color: white;
+}
+.f-ul-list{
+   list-style-type: none;
+   padding: 0 !important;
+   margin: 20px 0;
+}
+.f-ul-list li{
+   margin: 4px 0;
+}
+.f-ul-list li a{
+   color: #f5b561;
+   text-decoration: underline;
+   font-family: workfield;
+   
+}
+.f-ul-list li a:hover{
+   -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 0.3s ease;
+    color:#646464;
+}
+.f-copy-right{
+   color: white;
+   font-family: workfield;
+   margin: 20px 0;
+}
+@media only screen and (max-width:480px){
+   .header{
+      margin-top: 0px !important;
+   }
+   .main-banner{
+      display: none !important;
+   }
+   .podcast-content{
+      font-size: 34px;
+      margin: 30px 0px;
+   }
+   .main-bottom{
+      text-align: center !important;
+   }
+   .my-col{
+      display: block !important;
+   }
+   .generic-sec-content{
+      max-width: 100%;
+   }
+   .generic-content{
+      margin: 15px 0 0 0;
+   }
+   .short-heading{
+      max-width: 100%;
+      font-size: 30px;
+   }
+   .entrepreneurs-banner{
+      display: none;
+   }
+   .entrepreneurs-heading{
+      max-width: 100%;
+      font-size: 30px;
+   }
+   .ent-logo{
+      padding: 20px;
+   }
+   .additional-coching-banner{
+      display: none;
+   }
+   .additional-coching{
+      background: #f5b561;
+   }
+   .work-img{
+      max-width: 70%;
+      margin: 0 auto;
+   }
+   .mission-card{
+      left: 0;
+      right: 50px;
+   }
+   .download-guid{
+      margin: 35rem 0 0 0;
+   }
+   .download-banner{
+      display: none;
+      
+   }
+   .download-guid{
+      background: #162546;
+     padding: 40px 50px;
+   }
+   .down-input{
+      margin: 15px 0;
+   }
+   .my-cen{
+      text-align: center;
+      margin: 20px 0;
+   }
+   .f-logo{
+      width: 100%;
+   }
+   .about-f{
+      text-align: start !important;
+   }
+   .f-copy-right{
+      margin: 50px 0 20px 0;
+   }
+}
+@media only screen and (max-width:768px){
+   .download-guid{
+      margin: 32rem 0 0 0;
+
+   }
+}
+.ham-menu{
+   box-shadow: none !important;
+   border: none !important;
+}
